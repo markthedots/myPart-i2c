@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sumlang Lake</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- comment: font to be decided
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+      <end of comment> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <section class="header">
+    <nav>
+      <a href="index.html"><img src="photos/header.png" alt="logo of sumlang lake"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="">HOME</a></li>
+          <li><a href="">HISTORY</a></li>
+          <li><a href="">EXPERIENCES</a></li>
+          <li><a href="">VICINITY MAP</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>SUMLANG LAKE</h1>
+      <p>Our open spaces, punctuated by Sumlang Lake & Mayon Volcano, provide the perfect backdrop
+        for photo and video shoots, <br> as well as the ideal ambiance for peaceful walks and quiet
+        contemplation.</p>
+      <a href="" class="hero-btn">Visit Us To Know More</a>
+
+    </div>
+  </section>
+
+
+  <!------ HISTORY ------>
+
+
+
+
+
+
+
+  <!------ Javascript for Toggle Menu------>
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+    function hideMenu() {
+      navLinks.style.right = "-200px";
+
+    }
+
+
+  </script>
+
+</body>
+
+</html>
