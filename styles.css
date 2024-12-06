@@ -96,6 +96,20 @@ nav img {
   /* Ensure the image fits within the container without zooming */
   object-position: center;
   /* Center the image within the container */
+
+
+  width: 100vw;
+  /* Make the image width equal to the viewport width */
+  height: 100vh;
+  /* Make the image height equal to the viewport height */
+  object-fit: cover;
+  /* Ensure the image covers the entire area without distortion */
+  transform: scale(var(--zoom));
+  transform-origin: var(--x) var(--y);
+  clip-path: inset(calc((1 - 1 / var(--zoom)) * (var(--y))) calc((1 - 1 / var(--zoom)) * (100% - var(--x))) calc((1 - 1 / var(--zoom)) * (100% - var(--y))) calc((1 - 1 / var(--zoom)) * (var(--x))));
+
+
+  background-image: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.3));
 }
 
 .image1 {
@@ -106,9 +120,11 @@ nav img {
   width: 50%;
 }
 
-.image3 {
-  width: 50%;
 
+
+.image3 {
+  --zoom: 1;
+  /* Slightly zoom out for this image */
 }
 
 .prev,
