@@ -111,7 +111,7 @@ nav img {
 
   /*background: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.3)); not in use*/
   animation-name: fade;
-  animation-duration: 4s;
+  animation-duration: 6s;
 }
 
 /*need this code so that linear-gradient would work*/
