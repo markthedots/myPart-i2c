@@ -104,7 +104,6 @@ nav img {
   transform: scale(var(--zoom));
   transform-origin: var(--x) var(--y);
   clip-path: inset(calc((1 - 1 / var(--zoom)) * (var(--y))) calc((1 - 1 / var(--zoom)) * (100% - var(--x))) calc((1 - 1 / var(--zoom)) * (100% - var(--y))) calc((1 - 1 / var(--zoom)) * (var(--x))));
-  /*background: linear-gradient(rgb(4, 9, 30, 0.2), rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.3)); not in use*/
   animation-name: fade;
   animation-duration: 4s;
 }
