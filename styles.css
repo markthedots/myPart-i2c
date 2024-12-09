@@ -11,6 +11,7 @@
 }
 
 nav {
+  line-height:0;
   display: flex;
   padding: 2% 6%;
   justify-content: space-between;
