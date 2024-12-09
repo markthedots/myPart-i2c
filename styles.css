@@ -392,3 +392,8 @@ nav .fa-solid {
     left: 0%;
   }
 }
+
+.container {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
