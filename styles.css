@@ -27,6 +27,7 @@ nav {
 }
 
 nav img {
+  display: block;
   width: 250px;
 }
 
